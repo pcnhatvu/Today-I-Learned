@@ -8,3 +8,7 @@
 ```
 
 ```
+##### 29/09/2022: Why do we need api gate-way?
+```
+
+```

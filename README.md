@@ -12,3 +12,11 @@
 ```
 
 ```
+##### 30/09/2022:What is redis cache, spring cache?
+```
+
+```
+##### 01/10/2022:group by, having in SQL?
+```
+
+```

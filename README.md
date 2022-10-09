@@ -28,7 +28,15 @@
 ```
 
 ```
-##### 04/10/2022: 
+##### 04/10/2022: ```&``` and ```&&``` in Java
+```
+
+```
+##### 09/10/2022: What is rebase in git?
+```
+
+```
+##### 10/10/2022: Integer.toString() vs String.valueOf() in Java
 ```
 
 ```

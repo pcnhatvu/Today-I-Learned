@@ -1,8 +1,16 @@
 # Today-I-Learned
 
-##### 26/09/2022: Stream().forEach and forEach
+##### 26/09/2022: Collection.stream().forEach() and Collection.forEach()
 ```
-
+- The first difference between them is Execution Order. Collection.forEach() processed in order of the items. 
+  In constract, the processing order of Collection.stream().forEach() is undefined. 
+- The second thing is Modification. Collection.forEach() throws an exception immediately after removing an element. 
+  In constrast, Collection.stream().forEach() continues interating over the whole list before see an exception. 
+  In case of modifying, there is no problem with doing this using either Collection.stream().forEach() or Collection.forEach(), 
+  but we shouldn't do this because the stream should facilitate parallel execution. 
+  So, modifying elements of a stream could lead to unexpected behavior.
+- Conclution: if we don't require a stream but only want to iterate over a collection, 
+  the first choice should be using Collection.forEach() directly on the collection.
 ```
 ##### 27/09/2022: What is gRPC?
 ```

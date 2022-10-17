@@ -50,5 +50,7 @@
 ```
 ##### 17/10/2022: What is BindingResult in Spring?
 ```
-
+- BindingResult used as a parameter right after a Object that is being validated(use @Valid annotaion). 
+- It hold the result of validation and contains errors that may have occured. 
+- The BindingResult must come right after the model object is validated or else Spring will fail to validate the object and throw an exception.
 ```

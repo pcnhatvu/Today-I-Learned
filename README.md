@@ -48,3 +48,7 @@
 ```
 
 ```
+##### 17/10/2022: What is BindingResult in Spring?
+```
+
+```

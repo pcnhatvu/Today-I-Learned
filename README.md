@@ -38,8 +38,8 @@
 ```
 ##### 04/10/2022: ```&``` and ```&&``` in Java
 ```
-- ```&``` evaluates both sides of the operation. 
-- ```&&``` evaluates the left side of the operation, if it's true, it continues and evaluates the right side. 
+- & evaluates both sides of the operation. 
+- && evaluates the left side of the operation, if it's true, it continues and evaluates the right side. 
 ```
 ##### 09/10/2022: What is rebase in git?
 ```

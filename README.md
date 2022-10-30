@@ -57,15 +57,16 @@
 ```
 ##### 23/10/2022: RESTful APIs
 ```
-API (Application Programing Interface)
+API (Application Programing Interface): It is a way for two computers to talk to each other.
 - Major API categories: Local API and Remote API.
 	+ Local API takes place in single computer.
 	+ Remote API allow clients from a computer execute operation on another computer (sent over network using protocol)
 
 - Remote API: Web APIs, SOAP service, RPC, Remote methods.
 - Web APIs: REST, gPRC, GraphQL.
-- RESTful APIs (Representational State Transfer): defines a set of constraints that describe how networked resources are difined for communications between clients and servers.
-- REST Principles: Client-server based, Stateless, Cacheable, Layered, Uniform interface.
+- An API follows the REST is called the RESTful API
+- RESTful APIs (Representational State Transfer): defines a set of rules that describe how networked resources are difined for communications between clients and servers.
+- REST Principles: Client-server based, Stateless, Cacheable, Layered System, Uniform interface.
 - Uniform Resource Identifier(URI): https://api.pets.com/api/v1/users/{userId}/pets/{petId}
 	+ https: Protocol
 	+ api.pets.com/ : Domain name
@@ -84,4 +85,7 @@ API (Application Programing Interface)
 	+ Security schemes must be taken into account.
 - Java HTTP Client, Spring WebClient(webflux), RestTemplate, OpenFeign(feign-core, feign-jackson).
 - API Interaction Approaches: Synchronous, Asynchronous, Streaming.
+```
+##### 30/10/2022: What is Idempotent in REST API?
+```
 ```

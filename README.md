@@ -89,3 +89,25 @@ API (Application Programing Interface): It is a way for two computers to talk to
 ##### 30/10/2022: What is Idempotent in REST API?
 ```
 ```
+##### 31/10/2022: Monolithich and Micriservice
+```
+Problems of Monolithich Architecture:
+- Any changes on the code leads you to start the entire application.
+- Developer may not have knowledge of all the modules, getting it harder to get started/fixing bug.
+
+Problem of Micriservice:
+1. There are so many services, so if we want to change something common thing like company's name,
+we need to change all off properties file of all services.
+2. To communicate between services, service needs to know what is port number or server IP of
+other, but there are many services -> it's getting harder to configure.
+3. What happens if a service makes a call to another, but another is down or broken?
+4. Load balancer.
+5. What we can do to limit the number of calls to a service.
+
+Spring Cloud feature:
+- Distributed/versioned configuration -> solutions for problem number 1.
+- Service registration and discovery -> solution for problem number 2.
+- Circuit Breakers -> solution for problem number 3.
+- Load balancing -> solution for problem number 4.
+- Ratelimiter -> solution for problem 5.
+```

@@ -16,9 +16,15 @@
 ```
 
 ```
-##### 29/09/2022: Why do we need api gate-way?
+##### 29/09/2022: Why is API Gateway?
 ```
-
+- API Gateway is a single component of Entry to the clients of an application, it sits between a client and a collection of back-end services for the application.
+- An API Gateway typically provides several importants like:
+	- Authentication and security policy enforcement.
+	- Load balancing and circuitbreaking.
+	- Protocol translation and service discovery.
+	- monitoring, logging, analytics, billing.
+	- Caching.
 ```
 ##### 30/09/2022: What is redis cache, spring cache?
 ```
@@ -111,7 +117,7 @@ Spring Cloud feature:
 - Load balancing -> solution for problem number 4.
 - Ratelimiter -> solution for problem 5.
 ```
-##### 31/10/2022: Arrays.stream() and Arrays.asList()
+##### 01/11/2022: Arrays.stream() and Arrays.asList(), Parallel and parallelStream?
 ```
 
 ```

@@ -111,3 +111,7 @@ Spring Cloud feature:
 - Load balancing -> solution for problem number 4.
 - Ratelimiter -> solution for problem 5.
 ```
+##### 31/10/2022: Arrays.stream() and Arrays.asList()
+```
+
+```
